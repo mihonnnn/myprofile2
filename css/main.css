@@ -1,0 +1,146 @@
+/*font-family: 'DotGothic16', sans-serif;
+font-family: 'Hachi Maru Pop', cursive;
+font-family: 'Rock 3D', cursive;*/
+html{
+    width:100%;
+}
+body{
+    font-family:'DotGothic16',sans-serif;
+    background-color:bisque;
+}
+
+.box_DQ_in {
+    padding: 15px;
+    border: ridge 4px #fff;
+    border-radius: 10px;
+    background-color: #000000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+    margin: 0;
+    }
+    .box_DQ_out {
+    padding: 2px;
+    display: inline-block;
+    background-color: #000000;
+    border-radius: 12px;
+    margin: 30px 0 30px 0;
+    }
+
+.section_title{
+    font-size:4vw;
+    color:#fff;
+    font-style:italic;
+    margin: 0 auto;
+    padding:0 20px;
+    background-color:#000;
+}
+
+/*---header---*/
+.header{
+    padding:19px 30px;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    box-sizing:border-box;
+    width:100%;
+}
+.header-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width:1200px;
+    margin:0 auto;
+    z-index:1;
+}
+.top{
+    color:#fff;
+    font-size:2.3vw;
+    background-color: #000;
+    margin: 10px;
+    padding:5px 5px;
+    font-size:2.2vw;
+}
+.navtop ul{
+    display:flex;
+    justify-content:space-between;
+    padding:10px 10px;
+
+}
+.navtop li{
+    color:#fff;
+    text-decoration:none;
+    transition:.3s;
+    font-weight:bold;
+    background-color: #000;
+    border:solid, #fff ,10px;
+    border-radius:2px;
+    margin: 10px;
+    padding:5px 5px;
+    font-size:2.2vw;
+}
+.hamburger_bar{
+    display:none;
+}
+.header a:hover{
+    opacity:.7;
+    transition:.3s;
+}
+.title{
+    font-size:2.6rem;
+}
+.nav-list{
+    display:flex;
+}
+.nav-item{
+    margin-right:30px;
+}
+.nav-item:last-of-type{
+    margin-right: 0;
+}
+
+#main{
+    position:relative;
+    padding:19px 30px;
+    width:100%;
+   background-image:url("../img/topimg1.png");
+    background-size:100% auto;
+    height:62vw;
+}
+.main h2{
+    position:absolute;
+    top:17vw;
+    left:62vw;
+    font-size:5vw;
+}
+.main p{
+    position:absolute;
+    top:30vw;
+    left:68vw;
+    font-size:2vw;
+}
+
+.contact{
+    height:100vw;
+}
+
+
+
+
+
+
+footer{
+    height:5vw;
+    width:100%;
+    background-image: url("../img/topimg1.png");
+}
+small{
+    width:auto;
+    display:block;
+    font-size:2.3vw;
+    font-weight:bold;
+    padding-top:15px;
+    text-align:center;
+
+}
