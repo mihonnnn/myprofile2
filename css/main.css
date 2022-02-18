@@ -9,6 +9,23 @@ body{
     background-color:bisque;
 }
 
+.section_title{
+    font-size:6vw;
+    color:#fff;
+    font-style:italic;
+    text-align:center;
+    padding:0 20px;
+}
+.section_inner{
+    width: 75vw;
+    height:75vw;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    flex-flow:wrap;
+    margin-top:5vw;
+}
+
 .box_DQ_in {
     padding: 15px;
     border: ridge 4px #fff;
@@ -125,7 +142,36 @@ body{
     height:100vw;
 }
 
-
+/*--skills--*/
+.skill_content{
+    display:block;
+    width:20vw;
+    background-color:white;
+    height:30vw;
+    color:black;
+    font-size:1.5vw;
+    
+}
+.skill_content img{
+    width:15vw;
+    height:15vw;
+    margin:1.5vw 2.5vw 0;
+}
+.skill_title{
+    font-size:1.8vw;
+    text-align:center;
+    padding-bottom:2vw;
+}
+.skill_text{
+    padding:0 2vw;
+}
+.skill_content:hover{
+    transition-duration: 0.5s;
+    transform:scale(1.1);
+    overflow:visible;
+    background:white;
+    color:black;
+}
 
 
 
